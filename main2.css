@@ -1,0 +1,40 @@
+.main2{
+    background-color:silver;
+    width: 100%;
+    justify-content: space-around;
+    display:flex;
+    flex-wrap: wrap;
+
+}
+#side1, #side2{
+    width: 35%;
+    text-align: center;
+    background: orange;
+    color: white;
+    border-radius: 7% 0% ;
+    margin-bottom: 5%;
+}
+/*media query for mobile view*/
+@media only screen and 
+(min-width:320px) and 
+(max-width:460px){
+    .main2{
+        width: 100%;
+    }
+    #side1,#side2{
+        width:100%;
+    }
+
+}
+/*media query for tab view*/
+@media (min-device-width:461px) and (max-device-width:780px){
+    #side1,#side2{
+        width:100%;
+        display:flex;
+        
+    }
+   
+    .data{
+        padding:3em 3em 3em 0em;
+    }
+} 

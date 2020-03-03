@@ -1,0 +1,22 @@
+{
+    "basics":{
+        "name":"janaki",
+        "role":"Fresher",
+        "email":"janaki@gmail.com",
+        "mobile":"6304369596",
+        "education":[
+            {
+                "degree":"ssc",
+                "percentage":9.7 
+              },
+            {
+                "degree":"INTER",
+                "percentage":96.3 
+            },
+            {
+                "degree":"B TECH",
+                "percentage":9.7 
+            }
+        ]
+    }
+}
